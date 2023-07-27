@@ -32,8 +32,10 @@ table{
     font-size: large;
 }
 td{
+    text-align: center;
     border: 1px double;
     border-color: black;
+
 }
 a:link,a:active,a:visited {
 	text-decoration: none;
