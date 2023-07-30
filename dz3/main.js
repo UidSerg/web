@@ -1,9 +1,11 @@
 let name = prompt("Введите Ваше имя:");
 
-function privet(username) {
+function greeting(username) {
     username = username.trim();
     username = username[0].toUpperCase() + username.slice(1);
     let mess = 'Привет, '+username;
-    alert(mess);
+    //alert(mess);
+    console.log(mess); // выводим в консоль
 }
-privet(name);
+
+greeting(name);
